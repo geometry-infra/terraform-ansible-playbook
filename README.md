@@ -1,4 +1,4 @@
-# terraform-aws-icon-node-configuration
+# terraform-ansible-playbook
 
 Terraform module for running ansible playbooks. Wraps all the flags supported by the 
 `ansible-playbook` command per [docs](https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html). 
@@ -199,7 +199,7 @@ EOT
 
 ## Authors
 
-Module managed by [robcxyz](github.com/robcxyz) and [Insight Data Science](https://insightfellows.com/).
+Module managed by [robcxyz](github.com/robcxyz) with [Geometry Labs](https://github.com/geometry-labs).
 
 ## License
 

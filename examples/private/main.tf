@@ -106,18 +106,3 @@ module "ansible" {
   private_key_path = var.private_key_path
 }
 
-//module "ansible" {
-//  source = "github.com/insight-infrastructure/terraform-aws-ansible-playbook"
-//
-//  ip = aws_instance.private.private_ip
-//
-//  playbook_file_path = var.playbook_file_path
-//  roles_dir = "../ansible/roles"
-//
-//  bastion_ip = aws_instance.bastion.public_ip
-//  bastion_user = "ubuntu"
-//
-//  user = var.user
-//  private_key_path = var.private_key_path
-//}
-
